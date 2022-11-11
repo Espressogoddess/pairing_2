@@ -4,6 +4,8 @@ for (var i = 0; i < numbers.length; i++) {
         console.log(numbers[i])
     }
 }
-
-//Define a variable that stores an Array containing 8 Numbers between 1 and 100.
-//Write a program that checks each Number, and prints out only those above 30.
+for (var i = 0; i < numbers.length; i++) {
+    if (numbers[i] < 60) {
+        console.log(numbers[i])
+    }
+}
